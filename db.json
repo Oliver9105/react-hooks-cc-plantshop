@@ -41,6 +41,18 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Carrots",
+      "image": "https://www.hhs1.com/hubfs/carrots%20on%20wood-1.jpg",
+      "price": 25.09,
+      "id": 8
+    },
+    {
+      "name": "Cabbage",
+      "image": "https://www.kikkoman.com/en/cookbook/assets/img/GlossaryCabbage.jpg",
+      "price": "45.90",
+      "id": 9
     }
   ]
 }
