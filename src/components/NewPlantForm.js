@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function NewPlantForm({ addPlant }) {
   const [name, setName] = useState("");
@@ -7,18 +7,18 @@ function NewPlantForm({ addPlant }) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    const newPlant = { name, price, image };
+    const newPlant = { name, price: parseFloat(price), image };
 
     fetch("http://localhost:6001/plants", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(newPlant)
+      body: JSON.stringify(newPlant),
     })
-    .then(response => response.json())
-    .then(plant => addPlant(plant));
-    
+      .then((response) => response.json())
+      .then((plant) => addPlant(plant));
+
     setName("");
     setPrice("");
     setImage("");

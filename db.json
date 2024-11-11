@@ -1,39 +1,51 @@
 {
   "plants": [
     {
-      "id": 3,
-      "name": "Pilea peperomioides",
-      "image": "./images/pilea.jpg",
-      "price": 7.99
-    },
-    {
-      "id": 4,
-      "name": "Pothos",
-      "image": "./images/pothos.jpg",
-      "price": 12.11
-    },
-    {
-      "id": 5,
-      "name": "Jade",
-      "image": "./images/jade.jpg",
-      "price": 11.37
-    },
-    {
-      "id": 6,
-      "name": "Monstera Deliciosa",
-      "image": "./images/monstera.jpg",
-      "price": 25.99
-    },
-    {
       "name": "aloe",
-      "price": 15.99,
+      "price": "15.99",
       "image": "/images/aloe.jpg",
-      "id": 7
+      "id": 1
     },
     {
       "name": "zz plant",
-      "price": 25.98,
-      "image": "./images/zz-plant.jpg",
+      "price": "25.98",
+      "image": "/images/zz-plant.jpg",
+      "id": 2
+    },
+    {
+      "name": "pilea peperomioides",
+      "price": "5.99",
+      "image": "/images/pilea.jpg",
+      "id": 3
+    },
+    {
+      "name": "pothos",
+      "price": "12.11",
+      "image": "/images/pothos.jpg",
+      "id": 4
+    },
+    {
+      "name": "jade",
+      "price": "10.37",
+      "image": "/images/jade.jpg",
+      "id": 5
+    },
+    {
+      "name": "monstera delicosa",
+      "price": "25.99",
+      "image": "/images/monstera.jpg",
+      "id": 6
+    },
+    {
+      "name": "Fiddle LeafFig",
+      "price": "55",
+      "image": "/images/fiddle-leaf-fig.jpg",
+      "id": 7
+    },
+    {
+      "name": "calathea",
+      "price": "11.11",
+      "image": "/images/calathea.jpg",
       "id": 8
     }
   ]

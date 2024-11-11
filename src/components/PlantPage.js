@@ -17,16 +17,6 @@ function PlantPage() {
     setPlants([...plants, newPlant]);
   }
 
-  function updatePlantPrice(updatedPlant) {
-    setPlants(plants.map(plant =>
-      plant.id === updatedPlant.id ? updatedPlant : plant
-    ));
-  }
-
-  function deletePlant(id) {
-    setPlants(plants.filter(plant => plant.id !== id));
-  }
-
   function handleSearchChange(searchTerm) {
     setSearch(searchTerm);
   }
@@ -39,7 +29,7 @@ function PlantPage() {
     <main>
       <NewPlantForm addPlant={addPlant} />
       <Search search={search} onSearchChange={handleSearchChange} />
-      <PlantList plants={filteredPlants} updatePlantPrice={updatePlantPrice} deletePlant={deletePlant} />
+      <PlantList plants={filteredPlants} />
     </main>
   );
 }
